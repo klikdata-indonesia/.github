@@ -14,7 +14,7 @@ mvn clean spring-boot:run
 
 ## Data Model
 
-```plantuml
+
 
 entity Pasien {
     Sring id
@@ -250,7 +250,6 @@ entity User_Menu{
 
 
 
-```
 
 
 # ICON TOP
