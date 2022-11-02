@@ -13,7 +13,7 @@ mvn clean spring-boot:run
 ```
 
 ## Data Model
-
+```plantuml
 @startuml
 
 entity Pasien {
@@ -248,7 +248,7 @@ entity User_Menu{
 
 }
 
-
+```
 
 @enduml
 
