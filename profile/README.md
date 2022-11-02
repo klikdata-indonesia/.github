@@ -14,7 +14,7 @@ mvn clean spring-boot:run
 
 ## Data Model
 
-
+@startuml
 
 entity Pasien {
     Sring id
@@ -250,7 +250,7 @@ entity User_Menu{
 
 
 
-
+@enduml
 
 # ICON TOP
 
