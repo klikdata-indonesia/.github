@@ -11,7 +11,7 @@ export SPRING_DATASOURCE_USERNAME={user_db}
 export SPRING_DATASOURCE_PASSWORD={password_db}
 mvn clean spring-boot:run
 ```
-
+```mermaid
 classDiagram
     direction LR
     class Users {
@@ -36,6 +36,7 @@ classDiagram
 
     Users "1" <--> "N" Role
     Role "N" <--> "N" Permission 
+```
 
 
 # ICON TOP
